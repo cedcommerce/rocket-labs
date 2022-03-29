@@ -95,10 +95,10 @@ abstract class ProductAbstract extends RequestBuilderAbstract
      */
     protected $productId;
 
-    /**
-     * @var string
-     */
-    protected $condition;
+    // /**
+    //  * @var string
+    //  */
+    // protected $condition;
 
     /**
      * @var array
@@ -280,15 +280,15 @@ abstract class ProductAbstract extends RequestBuilderAbstract
         return $this;
     }
 
-    /**
-     * @param string $condition
-     * @return static
-     */
-    public function setCondition($condition)
-    {
-        $this->condition = $condition;
-        return $this;
-    }
+    // /**
+    //  * @param string $condition
+    //  * @return static
+    //  */
+    // public function setCondition($condition)
+    // {
+    //     $this->condition = $condition;
+    //     return $this;
+    // }
 
     /**
      * @param array $productData
